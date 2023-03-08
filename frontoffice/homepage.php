@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="styleHome.css"/> -->
-    <title>Homepage - Nomdusite</title>
+    <title>Homepage</title>
 
 </head>
 <style>
+
+
 
 
 
@@ -57,7 +59,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/background_villa.jfif" class="d-block w-100" alt="...">
+            <img src="images/background_villa.jfif" class="d-block w-100 " alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Some representative placeholder content for the first slide.</p>
@@ -111,8 +113,8 @@
                 </div>
               </div>
 
-              <div class="col-3">
-                <input class="btn btn-primary mt-3 mb-3 " type="submit" value="Recherche">
+              <div class="col-md-auto">
+                <input class="btn btn-primary mt-3 mb-3" type="submit" value="Recherche">
               </div>
 
 
@@ -149,8 +151,8 @@
 
             <div class="row row-cols-1 row-cols-md-4 g-4">
               <div class="col">
-                <div class="card">
-                  <a href=""><img href src="images/pen-nib-solid.svg" class="card-img-top picture" alt="..."></a>
+                <div class="card border-0">
+                  <a href=""><img href src="images/pen-nib-solid.svg" class="card-img-top picture " alt="..."></a>
                   <div class="card-body">
                     <h5 class="card-title">Acheter</h5>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
@@ -158,7 +160,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card">
+                <div class="card border-0">
                   <a href=""><img src="images/key-solid.svg" class="card-img-top picture" alt="..."></a>
                   <div class="card-body">
                     <h5 class="card-title">Louer </h5>
@@ -167,18 +169,18 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card">
+                <div class="card border-0" >
                   <a href=""><img src="images/house-solid.svg" class="card-img-top picture" alt="..."></a>
                   <div class="card-body">
-                    <h5 class="card-title">Vendre</h5>
+                    <h5 class="card-title  mt-3">Vendre</h5>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card">
-                  <a href=""><img src="images/people-arrows-solid.svg" class="card-img-top picture pt-2" alt="..."></a>
-                  <div class="card-body">
+                <div class="card border-0">
+                  <a href=""><img src="images/people-arrows-solid.svg" class="card-img-top picture" alt="..."></a>
+                  <div class="card-body ">
                     <h5 class="card-title">Louer/Gérer</h5>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
                   </div>
@@ -192,6 +194,20 @@
 
 
             </div>
+
+
+                <div class="container-fluid">
+                    
+                </div>
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,10 +1,28 @@
 <?php
 
-$title = "Index";
+if(isset($_GET['page']) && $_GET['page'] !=NULL) { 
+	$page = strval($_GET['page']);
+	
+	if($page == "homepage") {
+		$inc= 'hompage.php';
+		}
+	elseif($page == "who_are_we") {
+		$inc= 'who_are_we.php';
+		} 
 
 
 
 
+
+
+    
+	else {
+		$inc= 'homepage.php';
+		}
+	}
+else {
+	$inc= 'homepage.php';
+	}
 
 ?>
 <!DOCTYPE html>
@@ -15,13 +33,20 @@ $title = "Index";
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="styleIndex.css"/> -->
-    <title><?=$title?></title>
+    <title>Index </title>
 
 </head>
 <style>
 
+@font-face {
+  font-family: face;
+  src: url();
+}
 
-
+@font-face {
+  font-family: ;
+  src: url();
+}
 
   
     .bg-aqua{
@@ -71,7 +96,7 @@ $title = "Index";
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.php?page=index.php">Accueil</a>
+                <a class="nav-link active" aria-current="page" href="index.php?page=homepage.php">Accueil</a>
               </li>
               <li class="nav-item">
                 <li class="nav-item dropdown">
@@ -79,9 +104,7 @@ $title = "Index";
                       L'Agences
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="index.php?page=index.php">Qui nous sommes ? </a></li>
-                      <li><a class="dropdown-item" href="3">Nos atouts</a></li>
-                      <li><a class="dropdown-item" href="présentain de la base de donnée.php">Notre présentation de nos donnée (?)</a></li>
+                      <li><a class="dropdown-item" href="index.php?page=who_are_we.php">Qui nous sommes ? </a></li>
                     </ul>
                   </li>             
                  </li>
@@ -91,7 +114,7 @@ $title = "Index";
                       Proprieté
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="sales(Galerie photo (et ou vidéos) ).php">Acheter</a></li>
+                      <li><a class="dropdown-item" href="#">Acheter</a></li>
                       <li><a class="dropdown-item" href="#">Louer</a></li>
                       <li><a class="dropdown-item" href="#">Vendre</a></li>
                       <li><a class="dropdown-item" href="#">Louer/gérer</a></li>
