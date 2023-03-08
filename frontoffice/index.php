@@ -19,6 +19,10 @@ $title = "Index";
 
 </head>
 <style>
+
+
+
+
   
     .bg-aqua{
 
@@ -33,6 +37,7 @@ $title = "Index";
     .back{
 
       background-color: black;
+      width: 100%;
 
     }
     .t{
@@ -48,8 +53,8 @@ $title = "Index";
     
     .pictures{
 
-      width: 40%;
-
+      width: 35%;
+      color: aliceblue;
 
     }
 
@@ -115,21 +120,32 @@ $title = "Index";
   <?php
   include("$inc");
   ?>
+
 </main>
 <footer>
 
 
 
 
-  <div class="container-fluid back">
+  <div class="container-fluid mb-5 ">
 
-    <p class="text-light text-center">Nos réseaux sociaux</p>
-
-      <div class="container t">
+    <p class="text-light text-center back">Nos réseaux sociaux</p>
 
 
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <a href=""><img src="images/facebook.svg" alt="" class="pictures"></a>
+            </div>
+            <div class="col">
+              <a href=""><img src="images/twitter.svg" alt="" class="pictures"></a>
+            </div>
+            <div class="col">
+              <a href=""><img src="images/instagram.svg" alt="" class="pictures"></a>
+            </div>
+          </div>
+        </div>
 
-      </div>
 
   </div>
 

@@ -150,9 +150,9 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
               <div class="col">
                 <div class="card">
-                  <a href=""><img href src="images/pen-solid.svg" class="card-img-top picture" alt="..."></a>
+                  <a href=""><img href src="images/pen-nib-solid.svg" class="card-img-top picture" alt="..."></a>
                   <div class="card-body">
-                    <h5 class="card-title">acheter</h5>
+                    <h5 class="card-title">Acheter</h5>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
                   </div>
                 </div>
@@ -161,26 +161,26 @@
                 <div class="card">
                   <a href=""><img src="images/key-solid.svg" class="card-img-top picture" alt="..."></a>
                   <div class="card-body">
-                    <h5 class="card-title">louer </h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Louer </h5>
+                    <p class="card-text">Tout les annonces de villa a vendre </p>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="..." class="card-img-top" alt="...">
+                  <a href=""><img src="images/house-solid.svg" class="card-img-top picture" alt="..."></a>
                   <div class="card-body">
-                    <h5 class="card-title">vendre</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Vendre</h5>
+                    <p class="card-text">Tout les annonces de villa a vendre </p>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card">
-                  <img src="..." class="card-img-top" alt="...">
+                  <a href=""><img src="images/people-arrows-solid.svg" class="card-img-top picture pt-2" alt="..."></a>
                   <div class="card-body">
-                    <h5 class="card-title">louer/gérer</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Louer/Gérer</h5>
+                    <p class="card-text">Tout les annonces de villa a vendre </p>
                   </div>
                 </div>
               </div>
@@ -192,43 +192,6 @@
 
 
             </div>
-
-            <hr>  
-            
-            
-          <div class="container t mt-5">
-
-            <h3>Galerie de Photo de Villa </h3>
-
-            <div id="carouselExample" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-
-          </div>
-
-
-
-
-
-
 
 
 
