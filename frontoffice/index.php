@@ -1,31 +1,6 @@
 <?php
 
-$title="Index";
-if(isset($_GET['page']) && $_GET['page'] !=NULL) { 
-	$page = strval($_GET['page']);
-	
-	if($page == "Home page") {
-		$title="Homepage";
-		$inc= 'homepage.php';
-		}
-	elseif($page == "usersAdd") {
-		$title="UserAdd";
-		$inc= 'usersAdd.php';
-		} 
-	elseif($page == "usersEdit") {
-		$title="UserEdit";
-		$inc= 'usersEdit.php';
-		}  
-	else {
-		$inc= 'homepage.php';
-		}
-	}
-else {
-	$inc= 'homepage.php';
-	}
-
-
-
+$title = "Index";
 
 
 
@@ -71,7 +46,12 @@ else {
     }
 
     
+    .pictures{
 
+      width: 40%;
+
+
+    }
 
 </style>
 <body>
@@ -94,7 +74,7 @@ else {
                       L'Agences
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="index.php?page=who_are_we(Galerie de membres).html">Qui nous sommes ? </a></li>
+                      <li><a class="dropdown-item" href="index.php?page=index.php">Qui nous sommes ? </a></li>
                       <li><a class="dropdown-item" href="3">Nos atouts</a></li>
                       <li><a class="dropdown-item" href="présentain de la base de donnée.php">Notre présentation de nos donnée (?)</a></li>
                     </ul>
@@ -142,8 +122,14 @@ else {
 
 
   <div class="container-fluid back">
+
     <p class="text-light text-center">Nos réseaux sociaux</p>
 
+      <div class="container t">
+
+
+
+      </div>
 
   </div>
 
