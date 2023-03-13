@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="styleHome.css"/> -->
     <title>Homepage</title>
 
@@ -46,7 +45,6 @@
   }
 
 </style>
-<body>
 
 
 <main>
@@ -61,21 +59,21 @@
           <div class="carousel-item active">
             <img src="images/background_villa.jfif" class="d-block w-100 " alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
+              <h1><h4>First slide label</h4></h1>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="images/OIP.jfif" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
+            <h1><h4>Second slide label</h4></h1>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="images/" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
+            <h1><h4>Third slide label</h4></h1>
               <p>Some representative placeholder content for the third slide.</p>
             </div>
           </div>
@@ -135,7 +133,7 @@
 
         <h2 class="text-center text-white">Trouver votre nouvelle Villa avec Villa-geoise </h2>
 
-        <h3 class="text-center text-white"><cite>Citation de l'entreprise </cite></h3>
+        <h3 class="text-center text-white"><cite>Citation de l'entreprise ou devise </cite></h3>
 
       </div>
 
@@ -152,36 +150,36 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
               <div class="col">
                 <div class="card border-0">
-                  <a href=""><img href src="images/pen-nib-solid.svg" class="card-img-top picture " alt="..."></a>
+                  <a href=""><img href src="images/pen-nib-solid.svg" class="card-img-top picture " alt="icone pen"></a>
                   <div class="card-body">
-                    <h5 class="card-title">Acheter</h5>
+                    <h4 class="card-title">Acheter</h4>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card border-0">
-                  <a href=""><img src="images/key-solid.svg" class="card-img-top picture" alt="..."></a>
+                  <a href=""><img src="images/key-solid.svg" class="card-img-top picture" alt="icone key"></a>
                   <div class="card-body">
-                    <h5 class="card-title">Louer </h5>
+                    <h4 class="card-title">Louer </h4>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="card border-0" >
-                  <a href=""><img src="images/house-solid.svg" class="card-img-top picture" alt="..."></a>
+                  <a href=""><img src="images/house-solid.svg" class="card-img-top picture" alt="icone maison"></a>
                   <div class="card-body">
-                    <h5 class="card-title  mt-3">Vendre</h5>
+                    <h4 class="card-title  mt-3">Vendre</h4>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card border-0">
-                  <a href=""><img src="images/people-arrows-solid.svg" class="card-img-top picture" alt="..."></a>
-                  <div class="card-body ">
-                    <h5 class="card-title">Louer/Gérer</h5>
+                <div class="cardborder-0 ">
+                  <a href=""><img src="images/people-arrows-solid.svg" class="card-img-top picture" alt="icone people "></a>
+                  <div class="card-body">
+                    <h4 class="card-title">Louer/Gérer</h4>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
                   </div>
                 </div>
@@ -196,16 +194,96 @@
             </div>
 
 
+
+
                 <div class="container-fluid">
-                    
+                        
+                  <h4><h1>Villa récemment mis en vente</h1></h>
+
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+
+
+                </div>
+
+                <div class="container-fluid">
+                        
+                  <h4><h1>Villa a acheter </h1></h>
+
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+
+
                 </div>
 
 
 
+                <div class="container-fluid">
+                        
+                  <h4><h1>Villa a louer récamment</h1></h>
+
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="..." class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
 
 
-
-
+                </div>
 
 
 
@@ -228,7 +306,5 @@
 
 
 </main>
-    <script src="https://kit.fontawesome.com/962e0fbbfc.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+    
 </html>
