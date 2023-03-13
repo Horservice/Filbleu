@@ -1,5 +1,12 @@
 <?php
-
+try{
+	// On se connecte à MySQL
+	$db = new PDO('mysql:host=localhost;dbname=filbleu;charset=utf8', 'root', '');
+}
+catch(Exception $e){
+	// En cas d'erreur, on affiche un message et on arrête tout
+        die('Erreur : '.$e->getMessage());
+}
         
   if(isset($_GET['page']) && $_GET['page'] !=NULL) { 
     $page = strval($_GET['page']);
@@ -19,22 +26,12 @@
         elseif($page == "sell") {
           $inc= 'sell.php';
           } 
-          elseif($page == "Nous contacter") {
-              $inc= 'form.php';
-              }  
-              elseif($page == "Nous trouvé") {
-                $inc= 'found_us.php';
-                }  
-                              
-
-
-
-
-
-
-
-
-
+          elseif($page == "form") {
+            $inc= 'form.php';
+            } 
+            elseif($page == "found_us") {
+              $inc= 'found_us.php';
+              } 
     else {
       $inc= 'homepage.php';
       }
@@ -42,15 +39,6 @@
   else {
     $inc= 'homepage.php';
     }
-
-
-
-
-
-
-
-
-
 
 
 ?>
@@ -71,37 +59,27 @@
 <style>
 
 @font-face {
-  font-family: face;
-  src: url();
+  font-family: ;
+  src: url(Roboto-Black.ttf);
+  
 }
 
 
-  
-    .bg-aqua{
-
-      background-color: rgb(60, 230, 173);
-
-    }
-    .bgColor{
-
-      background-color: aquamarine;
-
-    }
+ 
     .back{
 
       background-color: black;
       width: 100%;
 
     }
+
     .t{
 
       background-color: red;
 
     }
-    a:hover{
 
-      background-color: rgba(128, 128, 128, 0.397);
-    }
+
 
     
     .pictures{
@@ -114,7 +92,7 @@
 </style>
 <body>
 <header>
-    <nav class="navbar navbar-expand-sm bg-aqua">
+    <nav class="navbar  navbar-expand-sm bg-aqua ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Villa-geoise</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -186,25 +164,30 @@
 <footer>
 
 
-  <div class="container-fluid mb-5">
-
-    <p class="text-light text-center  back mt-5 p-3">Nos réseaux sociaux</p>
+  <div class="container-fluid back">
 
 
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">
-              <a href=""><img src="images/facebook.svg" alt="" class="pictures"></a>
-            </div>
-            <div class="col">
-              <a href=""><img src="images/twitter.svg" alt="" class="pictures"></a>
-            </div>
-            <div class="col">
-              <a href=""><img src="images/instagram.svg" alt="" class="pictures"></a>
-            </div>
+    <div class="container-fluid bg-body-tertiary">
+
+
+      <h5 class="text-center">Nos réseaux sociaux</h5>
+
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <a href="facebook.com"><img src="images/facebook.svg" alt="" class="pictures"></a>
+          </div>
+          <div class="col">
+            <a href="twitter.com"><img src="images/twitter.svg" alt="" class="pictures"></a>
+          </div>
+          <div class="col">
+            <a href="instagram.com"><img src="images/instagram.svg" alt="" class="pictures"></a>
           </div>
         </div>
+      </div>
 
+    </div>
 
   </div>
 

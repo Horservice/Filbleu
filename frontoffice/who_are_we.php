@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <!-- <link rel="stylesheet" href="styleWho.css"/> -->
     <title>Qui nous sommes ? - Nomdusite</title>
 
@@ -13,35 +14,24 @@
 
     .a{
 
-        background-color: red;
+      background-color: rgba(105, 104, 104, 0.288);
     }
-
-    .b{
-
-        background-color: blue;
-        width: 45%;
-    }
-
-    .c{
-
-        background-color: coral;
-    }
-
+  
     .d {
 
-        background-color: aquamarine;
+        background-color: white;
 
     }
 
 
 </style>
-
+<main>
 <body>
     <div class="container-fluid a pb-5 pt-5">
 
         <div class="container d pb-5 pt">
 
-            <div class="container b text-center text-white ">
+            <div class="container b text-center ">
 
                 <h1>Qui nous sommes ? </h1>
 
@@ -58,7 +48,7 @@
             </div>
 
 
-            <div class="container b text-center text-white my-5">
+            <div class="container b text-center my-5">
 
                 <h2>Notre équipe  </h2>
 
@@ -158,6 +148,6 @@
 
 
 
-
+  </main>
 </body>
 </html>

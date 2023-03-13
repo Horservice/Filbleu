@@ -150,7 +150,7 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
               <div class="col">
                 <div class="card border-0">
-                  <a href=""><img href src="images/pen-nib-solid.svg" class="card-img-top picture " alt="icone pen"></a>
+                  <a href="index.php?page=buy"><img href src="images/pen-nib-solid.svg" class="card-img-top picture " alt="icone pen"></a>
                   <div class="card-body">
                     <h4 class="card-title">Acheter</h4>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
@@ -159,7 +159,7 @@
               </div>
               <div class="col">
                 <div class="card border-0">
-                  <a href=""><img src="images/key-solid.svg" class="card-img-top picture" alt="icone key"></a>
+                  <a href="index.php?page=rent"><img src="images/key-solid.svg" class="card-img-top picture" alt="icone key"></a>
                   <div class="card-body">
                     <h4 class="card-title">Louer </h4>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
@@ -168,7 +168,7 @@
               </div>
               <div class="col">
                 <div class="card border-0" >
-                  <a href=""><img src="images/house-solid.svg" class="card-img-top picture" alt="icone maison"></a>
+                  <a href="index.php?page=sell"><img src="images/house-solid.svg" class="card-img-top picture" alt="icone maison"></a>
                   <div class="card-body">
                     <h4 class="card-title  mt-3">Vendre</h4>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
@@ -177,7 +177,7 @@
               </div>
               <div class="col">
                 <div class="cardborder-0 ">
-                  <a href=""><img src="images/people-arrows-solid.svg" class="card-img-top picture" alt="icone people "></a>
+                  <a href="index.php?page="><img src="images/people-arrows-solid.svg" class="card-img-top picture" alt="icone people "></a>
                   <div class="card-body">
                     <h4 class="card-title">Louer/Gérer</h4>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
@@ -258,7 +258,7 @@
 
                 <div class="container-fluid">
                         
-                  <h4><h1>Villa a louer récamment</h1></h>
+                  <h4><h1>Villa a louer récamment</h1></h4>
 
                     <div id="carouselExampleFade" class="carousel slide carousel-fade">
                       <div class="carousel-inner">

@@ -12,18 +12,18 @@
 
     .a {
 
-      background-color: red;
+      background-color: rgba(105, 104, 104, 0.288);
 
     }
 
     .b{
 
-        background-color: blue;
+        background-color: white;
 
     }
     .c{
 
-      background-color: chocolate;
+      background-color: white;
       width: 50%;
 
     }
@@ -37,7 +37,7 @@
         <h1>Villa a vendre aux alentours </h1>
 
         </div>
-        <div class="container b mt-5">
+        <div class="container b mt-5 p-5">
           
 
             <div class="row row-cols-1 row-cols-md-3 g-3 pb-5">
