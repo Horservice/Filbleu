@@ -57,8 +57,8 @@ else {
 <style>
 
     @font-face {
-      font-family: "Robot-Black";
-      src: url(/frontoffice/police/Roboto-Black.ttf);
+      font-family: "";
+      src: url();
     }
 
     p{
@@ -155,18 +155,17 @@ else {
   
 
 
+
+
 <main>
- <?php
+<?php
 
 
-   include("$inc");
-            
-            
- ?>
+  include("$inc");
+          
+          
+?>
 </main>
-
-
-
 
 
 
@@ -201,7 +200,7 @@ else {
 
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid pt-3">
 
     <p id="year" class="text-center"></p> 
 

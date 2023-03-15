@@ -58,10 +58,15 @@
   .v{
 
     background-color: violet;
-    background-image: url(images/thumb-1920-1096250.webp);
+    background-image: url(/frontoffice/images/background_villa.jfif);
 
   }
 
+
+  .y{
+
+      background-color:yellow;
+  }
 </style>
 
 
@@ -107,10 +112,9 @@
       </div>
     
 
-        </div>
 
 
-      <div class="container-fluid te">
+      <div class="container-fluid te py-4">
 
         <h2 class="text-center text-white">Trouver votre nouvelle Villa avec Villa-geoise </h2>
 
@@ -119,23 +123,23 @@
       </div>
 
 
-
+      
 
     
 
-      <div class="container-fluid   v">
+      <div class="container-fluid pt-5 pb-5 v">
 
 
-        <div class="container text-center  ">
 
-            <div class="container">
+        <div class="container text-center y pb-5">
+            
+          <div class="container-fluid ">
+
+            <div class="container-fluid py-3 ">
 
                 <h3><h1>Nos service</h1></h3>
 
             </div>
-
-            
-          <div class="container-fluid ">
 
 
             <div class="row row-cols-1 row-cols-md-3 g-3">
@@ -160,7 +164,7 @@
               <div class="col">
                 <div class="card border-0" >
                   <a href="index.php?page=sell"><img src="images/house-solid.svg" class="card-img-top picture" alt="icone maison"></a>
-                  <div class="card-body">
+                  <div class="card-body mt-3">
                     <h4 class="card-title">Vendre</h4>
                     <p class="card-text">Tout les annonces de villa a vendre </p>
                   </div>
@@ -170,7 +174,7 @@
 
 
 
-
+          
 
 
             </div>
@@ -183,15 +187,7 @@
 
 
                         
-                  <h4><h1>Villa ajouter récamment a </h1></h>
-
-
-
-
-
-
-
-
+                  <h4><h1>Villa récente ajoute </h1></h4>
 
 
 
@@ -228,7 +224,7 @@
 
 
                         
-                  <h4><h1>Villa ajouter récamment a  </h1></h>
+                  <h4><h1>Villa ajouter récamment a  </h1></h4>
 
 
 
@@ -270,21 +266,7 @@
 
                 <div class="container-fluid">
                         
-
-
-
-
-
-
-                  <h4><h1>Villa ajouter récamment a </h1></h4>
-
-
-
-
-
-
-
-
+                  <h4><h1>Meilleur Villa du mois</h1></h4>
 
 
                     <div id="carouselExampleFade3" class="carousel slide carousel-fade">
@@ -292,33 +274,36 @@
                         <div class="carousel-item active">
                           <img src="images/thumb-1920-1096250.jpg" class="d-block w-100" alt="images/thumb-1920-1096250.jpg">
                         </div>
+
+
                         <div class="carousel-item">
                           <img src="images/thumb-1920-1096250.jpg" class="d-block w-100" alt="images/thumb-1920-1096250.jpg">
                         </div>
+
+
                         <div class="carousel-item">
                           <img src="images/thumb-1920-1096250.jpg" class="d-block w-100" alt="images/thumb-1920-1096250.jpg">
                         </div>
+
+
                       </div>
+
                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                       </button>
+
                       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade3" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                       </button>
+
                     </div>
 
 
                 </div>
 
 
-
-
-
-        </div>
-        
-        
 
       </div>
 

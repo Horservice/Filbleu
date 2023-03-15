@@ -45,15 +45,15 @@
 <body>
 <main>
 
-    <div class="container-fluid a p-3 pb-5">
+    <div class="container-fluid a  pb-5 pt-4 ">
 
-        <div class="container b">
+        <div class="container b mb-4 pt-1 pb-1">
 
                 <h1 class="text-center m-3" >Nous contacter</h1>
 
         </div>
 
-            <div class="container c ">
+            <div class="container c pt-2">
 
 
                 <h2 class="text-center">Formulaire</h2>
