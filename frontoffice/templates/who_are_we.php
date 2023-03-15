@@ -13,8 +13,8 @@
 <style>
 
     .a{
-
-      background-color: rgba(105, 104, 104, 0.288);
+      background-color: grey;
+      background-image: url(images/thumb-1920-1096250.webp);
     }
   
     .d {
@@ -31,7 +31,7 @@
 
         <div class="container d pb-5 pt">
 
-            <div class="container b text-center ">
+            <div class="container b text-center py-3">
 
                 <h1>Qui nous sommes ? </h1>
 
@@ -60,9 +60,9 @@
                 <div class="row row-cols-1 row-cols-md-4 g-4">
                     <div class="col">
                       <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title ">nom de la personne</h5>
+                          <h5 class="card-title ">Richard</h5>
                           <p class="card-text">description du poste de la personne</p>
                         </div>
                       </div>
@@ -71,7 +71,7 @@
                       <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title ">nom de la personne</h5>
+                          <h5 class="card-title ">Pierre</h5>
                           <p class="card-text">description du poste de la personne</p>
                         </div>
                       </div>
@@ -80,7 +80,7 @@
                         <div class="card">
                           <img src="..." class="card-img-top" alt="...">
                           <div class="card-body">
-                            <h5 class="card-title ">nom de la personne</h5>
+                            <h5 class="card-title ">Daniel</h5>
                             <p class="card-text">description du poste de la personne</p>
                           </div>
                         </div>
@@ -89,7 +89,7 @@
                       <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title ">nom de la personne</h5>
+                          <h5 class="card-title ">Jérôme</h5>
                           <p class="card-text">description du poste de la personne</p>
                         </div>
                       </div>
@@ -100,7 +100,7 @@
                       <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title ">nom de la personne</h5>
+                          <h5 class="card-title ">François</h5>
                           <p class="card-text">description du poste de la personne</p>
                         </div>
                       </div>
@@ -109,7 +109,7 @@
                       <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title ">nom de la personne</h5>
+                          <h5 class="card-title ">Claire</h5>
                           <p class="card-text">description du poste de la personne</p>
                         </div>
                       </div>
@@ -118,7 +118,7 @@
                         <div class="card">
                           <img src="..." class="card-img-top" alt="...">
                           <div class="card-body">
-                            <h5 class="card-title ">nom de la personne</h5>
+                            <h5 class="card-title ">Valérie</h5>
                             <p class="card-text">description du poste de la personne</p>
                           </div>
                         </div>
@@ -127,7 +127,7 @@
                       <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title ">nom de la personne</h5>
+                          <h5 class="card-title ">Pauline</h5>
                           <p class="card-text">description du poste de la personne</p>
                         </div>
                       </div>

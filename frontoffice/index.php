@@ -1,44 +1,41 @@
 <?php
-try{
-	// On se connecte à MySQL
-	$db = new PDO('mysql:host=localhost;dbname=filbleu;charset=utf8', 'root', '');
-}
-catch(Exception $e){
-	// En cas d'erreur, on affiche un message et on arrête tout
-        die('Erreur : '.$e->getMessage());
-}
-        
-  if(isset($_GET['page']) && $_GET['page'] !=NULL) { 
-    $page = strval($_GET['page']);
-    
-    if($page == "homepage") {
-      $inc= 'homepage.php';
-      }
-    elseif($page == "who_are_we") {
-      $inc= 'who_are_we.php';
-      } 
-    elseif($page == "buy") {
-      $inc= 'buy.php';
+
+if(isset($_GET['page']) && $_GET['page'] !=NULL) { 
+  $page = strval($_GET['page']);
+  
+  if($page == "homepage") {
+    $inc= 'templates/homepage.php';
+    }
+  elseif($page == "who_are_we") {
+    $inc= 'templates/who_are_we.php';
+    } 
+  elseif($page == "buy") {
+    $inc= 'templates/buy.php';
+    }  
+  elseif($page == "rent") {
+    $inc= 'templates/rent.php';
+    }  
+  elseif($page == "sell") {
+    $inc= 'templates/sell.php';
+    } 
+  elseif($page == "form") {
+    $inc= 'templates/form.php';
+    } 
+  elseif($page == "found_us") {
+    $inc= 'templates/found_us.php';
+    }
+    elseif($page == "villa") {
+      $inc= 'templates/villa.php';
       }  
-      elseif($page == "rent") {
-        $inc= 'rent.php';
-        }  
-        elseif($page == "sell") {
-          $inc= 'sell.php';
-          } 
-          elseif($page == "form") {
-            $inc= 'form.php';
-            } 
-            elseif($page == "found_us") {
-              $inc= 'found_us.php';
-              } 
-    else {
-      $inc= 'homepage.php';
-      }
-    }
   else {
-    $inc= 'homepage.php';
+    $inc= 'templates/homepage.php';
     }
+  }
+else {
+  $inc= 'templates/homepage.php';
+  }
+
+
 
 
 ?>
@@ -53,17 +50,29 @@ catch(Exception $e){
     <script src="https://kit.fontawesome.com/962e0fbbfc.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="styleIndex.css"/> -->
+    
     <title>Index </title>
 
 </head>
 <style>
 
-@font-face {
-  font-family: ;
-  src: url(Roboto-Black.ttf);
-  
-}
+    @font-face {
+      font-family: "Robot-Black";
+      src: url(/frontoffice/police/Roboto-Black.ttf);
+    }
 
+    p{
+
+      font-family: 'Robot-Black';
+
+    }
+
+
+    h1,h2,h3,h4,h5{
+
+      font-family: 'Georgia', Courier, monospace;
+
+    }
 
  
     .back{
@@ -122,7 +131,8 @@ catch(Exception $e){
                       <li><a class="dropdown-item" href="index.php?page=buy">Acheter</a></li>
                       <li><a class="dropdown-item" href="index.php?page=rent">Louer</a></li>
                       <li><a class="dropdown-item" href="index.php?page=sell">Vendre</a></li>
-                      <li><a class="dropdown-item" href="index.php?page=nonmae">Louer/gérer</a></li>
+                      <li><a class="dropdown-item" href="index.php?page=villa">villa(teste)</a></li>
+
                     </ul>
                   </li>              
                 </li>
