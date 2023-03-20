@@ -1,5 +1,4 @@
 <?php
-
 if(isset($_GET['page']) && $_GET['page'] !=NULL) { 
   $page = strval($_GET['page']);
   
@@ -27,6 +26,12 @@ if(isset($_GET['page']) && $_GET['page'] !=NULL) {
     elseif($page == "villa") {
       $inc= 'templates/villa.php';
       }  
+
+
+
+
+
+      
   else {
     $inc= 'templates/homepage.php';
     }
@@ -34,8 +39,6 @@ if(isset($_GET['page']) && $_GET['page'] !=NULL) {
 else {
   $inc= 'templates/homepage.php';
   }
-
-
 
 
 ?>
@@ -55,22 +58,32 @@ else {
 
 </head>
 <style>
+    @font-face {
+      font-family: "Roboto-Black";
+      src: url('Roboto-Black.ttf');
+    }
+
+
+
+    
+    h1,h2,h3,h4,h5,a{
+
+    font-family: 'Robot-Black';
+
+    }
+
+
+
+
 
     @font-face {
-      font-family: "";
-      src: url();
+      font-family: "Oswald";
+      src: url('Oswald-VariableFont_wght.ttf');
     }
 
     p{
 
-      font-family: 'Robot-Black';
-
-    }
-
-
-    h1,h2,h3,h4,h5{
-
-      font-family: 'Georgia', Courier, monospace;
+      font-family: 'Oswald';
 
     }
 
@@ -161,7 +174,7 @@ else {
 <?php
 
 
-  include("$inc");
+    include("$inc");
           
           
 ?>

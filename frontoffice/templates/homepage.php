@@ -65,7 +65,7 @@
 
   .y{
 
-      background-color:yellow;
+      background-color:white;
   }
 </style>
 

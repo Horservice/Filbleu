@@ -31,7 +31,7 @@
 
     .picture{
 
-      width: 40%;
+      width: 30%;
       
     }
 
@@ -67,12 +67,12 @@
             </div>
 
                                 
-            <div class="container-fluid c pb-5">
+            <div class="container-fluid c pb-5 text-center ">
 
                 <div class="row row-cols-1 row-cols-md-4 g-4">
                     <div class="col">
                       <div class="card">
-                        <img src="images/user-solid.svg" class="card-img-top" alt="images/user-solid.svg">
+                        <a><img src="images/user-solid.svg" class="card-img-top picture " alt="images/user-solid.svg"></a>
                         <div class="card-body">
                           <h5 class="card-title ">Richard</h5>
                           <p class="card-text">description du poste de la personne</p>
@@ -81,7 +81,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="images/user-solid.svg" class="card-img-top" alt="images/user-solid.svg">
+                        <a><img src="images/user-solid.svg" class="card-img-top picture " alt="images/user-solid.svg"></a>
                         <div class="card-body">
                           <h5 class="card-title ">Pierre</h5>
                           <p class="card-text">description du poste de la personne</p>
@@ -90,7 +90,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                          <img src="images/user-solid.svg" class="card-img-top" alt="images/user-solid.svg">
+                          <a><img src="images/user-solid.svg" class="card-img-top picture " alt="images/user-solid.svg"></a>
                           <div class="card-body">
                             <h5 class="card-title ">Daniel</h5>
                             <p class="card-text">description du poste de la personne</p>
@@ -99,7 +99,7 @@
                       </div>
                     <div class="col">
                       <div class="card">
-                        <img src="images/user-solid.svg" class="card-img-top" alt="images/user-solid.svg">
+                        <a><img src="images/user-solid.svg" class="card-img-top picture " alt="images/user-solid.svg"></a>
                         <div class="card-body">
                           <h5 class="card-title ">Jérôme</h5>
                           <p class="card-text">description du poste de la personne</p>
@@ -110,7 +110,7 @@
                   <div class="row row-cols-1 row-cols-md-4 g-4 mt-3">
                     <div class="col">
                       <div class="card">
-                        <img src="images/user-solid.svg" class="card-img-top" alt="images/user-solid.svg">
+                        <a><img src="images/user-solid.svg" class="card-img-top picture " alt="images/user-solid.svg"></a>
                         <div class="card-body">
                           <h5 class="card-title ">François</h5>
                           <p class="card-text">description du poste de la personne</p>
@@ -119,7 +119,7 @@
                     </div>
                     <div class="col">
                       <div class="card">
-                        <img src="images/user-solid.svg" class="card-img-top" alt="images/user-solid.svg">
+                        <a><img src="images/user-solid.svg" class="card-img-top picture " alt="images/user-solid.svg"></a>
                         <div class="card-body">
                           <h5 class="card-title ">Claire</h5>
                           <p class="card-text">description du poste de la personne</p>
@@ -128,7 +128,7 @@
                     </div>
                     <div class="col">
                         <div class="card">
-                          <img src="images/user-solid.svg" class="card-img-top" alt="images/user-solid.svg">
+                          <a><img src="images/user-solid.svg" class="card-img-top picture " alt="images/user-solid.svg"></a>
                           <div class="card-body">
                             <h5 class="card-title ">Valérie</h5>
                             <p class="card-text">description du poste de la personne</p>
@@ -137,7 +137,7 @@
                       </div>
                     <div class="col">
                       <div class="card">
-                        <img src="images/user-solid.svg" class="card-img-top" alt="images/user-solid.svg">
+                        <a><img src="images/user-solid.svg" class="card-img-top picture " alt="images/user-solid.svg"></a>
                         <div class="card-body">
                           <h5 class="card-title ">Pauline</h5>
                           <p class="card-text">description du poste de la personne</p>
@@ -149,17 +149,9 @@
 
         </div>
 
-
-
-
-                                
     </div>
 
-        
-
-
-
-
+      
   </main>
 </body>
 </html>

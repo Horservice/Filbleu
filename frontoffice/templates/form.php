@@ -49,7 +49,7 @@
 
         <div class="container b mb-4 pt-1 pb-1">
 
-                <h1 class="text-center m-3" >Nous contacter</h1>
+                <h1 class="text-center m-2" >Nous contacter</h1>
 
         </div>
 

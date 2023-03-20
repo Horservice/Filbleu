@@ -39,7 +39,7 @@
 
     <div class="container-fluid text-center a pb-5 pt-4 ">
 
-        <div class="container-fluid d mb-4 pb-1">
+        <div class="container-fluid d mb-4 pt-1 pb-1">
 
             <h1>Nous trouvé</h1>
 
