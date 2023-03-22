@@ -1,74 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="styleHome.css"/> -->
-
-    <title>Homepage</title>
-
-</head>
-<style>
-
-
-
-    .a{
-        background-color: red;
-
-    }
-
-  .te{
-
-    background-color: rgb(60, 230, 173);
-
-  }
-
-  .tee{
-
-    background-color: rgb(191, 107, 199);
-
-  }
-
-  .grey{
-
-    color: grey;
-
-  }
-
-  .bg-grey{
-
-
-    background-color: grey;
-
-  }
-
-  .t{
-
-    background-color: red;
-
-  }
-
-  .picture{
-
-    width: 40%;
-
-  }
-
-  .v{
-
-    background-color: violet;
-    background-image: url(/frontoffice/images/background_villa.jfif);
-
-  }
-
-
-  .y{
-
-      background-color:white;
-  }
-</style>
-
+<?php $title = "Villa-geoise - Page D'accueil"; ?>
+<?php ob_start(); ?>
+<link rel="stylesheet" href="assets/homepage.css"/>
 
 <main>
 
@@ -94,7 +26,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="images/" class="d-block w-100" alt="images/thumb-1920-1096250.jpg">
+            <img src="images/OIP.jfif" class="d-block w-100" alt="images/thumb-1920-1096250.jpg">
             <div class="carousel-caption d-none d-md-block">
             <h1><h4>Third slide label</h4></h1>
               <p>Some representative placeholder content for the third slide.</p>
@@ -318,5 +250,8 @@
 
 
 </main>
-    
+  
+<?php $content = ob_get_clean(); ?>
+<?php require('layout.php') ?>
+
 </html>

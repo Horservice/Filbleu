@@ -1,39 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <link rel="stylesheet" href="styleFound.css"/> -->
-    <title>Nous trouvé - Nomdusite</title>
 
-</head>
-<style>
+<?php $title = "Villa-geoise - Nous trouvés "; ?>
+<?php ob_start(); ?>
+<link rel="stylesheet" href="assets/found.css"/>
 
-    .a{
 
-        background-color: rgba(105, 104, 104, 0.288);
-
-    }
-
-    .b{
-
-        background-color: white;
-
-    }
-    .c{
-
-        background-color: cadetblue;
-
-    }
-
-    .d{
-
-        background-color: white;
-        width: 50%;
-
-    }
-
-</style>
 <body>
 <main>
 
@@ -78,4 +48,9 @@
 
 </main>
 </body>
+
+
+<?php $content = ob_get_clean(); ?>
+<?php require('layout.php') ?>
+
 </html>
